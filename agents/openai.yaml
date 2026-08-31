@@ -1,0 +1,7 @@
+interface:
+  display_name: "架构审查 Skill"
+  short_description: "按需生成模块依赖图，并保留里程碑架构审计版本"
+  default_prompt: "Use $architecture-review to generate or refresh this project's requested or milestone architecture audit."
+
+policy:
+  allow_implicit_invocation: true
